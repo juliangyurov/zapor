@@ -1,0 +1,286 @@
+body{
+  /* background-image: url('redvector.png'); */
+  background-image: url('design.png');
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+  margin: 10px;
+  min-width: 350px;
+  /*height: 800px;
+  background-image: linear-gradient(red, black,red);;*/
+}
+
+/* Include the padding and border in an element's total width and height */
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #ff9900;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+h2 {
+  color: #ff9900;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: lighter;
+}
+
+/* ------------------------- */
+.button {
+  
+    background-color: #b30000   ;
+    border: 2px solid #000000;
+    color: #ff9900;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+}
+.button:hover {
+  background-color:#C80A01 ;
+  border: 2px solid #ffff80;
+  color: white;
+}
+
+label {
+  color: #ff9900;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/*
+.button2 {background-color: #008CBA;} 
+.button3 {background-color: #f44336;}
+.button4 {background-color: #e7e7e7; color: black;} 
+.button5 {background-color: #555555;}
+*/
+
+/* ----------- */
+/* Header dash */
+p {
+  /*border-top: 2px solid #581845;
+  border-bottom: 2px solid#581845;
+  border-radius:20px;
+  background-color: lightgrey; */
+  
+  border-top: 3px solid #ff9900;
+  border-bottom: 2px solid#995c00;
+  border-radius:20px;
+  background-color: lightgrey; 
+}
+
+
+/* 5px top and bottom, 20px on the sides */
+/*
+p.one {
+  border-style: solid;
+  border-width: 5px 20px; 
+}
+*/
+
+/* 20px top and bottom, 5px on the sides */
+/*
+p.two {
+  border-style: solid;
+  border-width: 20px 5px; 
+}
+*/
+
+/* 25px top, 10px right, 40px bottom and 35px left */
+/*
+p.three {
+  border-style: hidden;
+  border-width: 250px 10px 100px 35px; 
+}
+*/
+/*
+p.top-bottom {
+  color: red;
+  border-top: 10px solid red;
+  border-bottom: 10px solid red;
+  border-radius:20px;
+  background-color: lightgrey;
+}
+*/
+
+/* ------ */
+.center {
+  opacity:100%;
+  margin: auto;
+  width: 40%; /* this 40% + 2*left from .vertical-center */
+  border: 3px solid #581845;;
+  padding: 10px;
+  text-align: center;
+  border-radius:10px;
+  
+  /* background-color:#00cc66; 
+   background-color:#771111; 
+   background-color:#FA3023  ;*/
+	
+  background-color:#cc0000 ;
+  
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+section {
+  margin-top: 30px;
+  
+}
+
+/* Styles for DASHBOARD */
+
+/* Remove margins and padding from the list */
+/*
+ul {
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+}
+*/
+
+/* Style the list items */
+/*
+ul li {
+border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  list-style-type: none;
+  background: #ffb;
+  font-size: 18px;
+  transition: 0.2s;
+  /*
+  /* make the list items unselectable */
+  /*
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+*/
+
+/* Set all odd list items to a different color (zebra-stripes) */
+/*
+ul li:nth-child(odd) {
+  background: #f9f0f0;
+}
+*/
+
+/* Darker background-color on hover */
+/*
+ul li:hover {
+  background: #ddd;
+}
+*/
+
+/* When clicked on, add a background color and strike out text */
+/*
+ul li.checked {
+  background: #a3e4d7;
+  color: #fff;
+  text-decoration: line-through;
+}
+*/
+
+/* Add a "checked" mark when clicked on */
+/*
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+*/
+
+/* Style the close button */
+/*
+.close {
+border-radius: 5px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+*/
+/*
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+*/
+
+/* Style the header */
+/*
+.header-dash {
+border-radius: 10px;
+  background-color: #66ffb0;
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+}
+*/
+
+/* Clear floats after the header */
+
+.header-dash:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+/*
+.input-dash {
+
+  margin: 0;
+  border: none;
+  border-radius: 10px;
+  width: 85%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+*/
+
+/* Style the "Add" button */
+/*
+.addBtn {
+
+  padding: 10px;
+  width: 15%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+*/
+/*
+.addBtn:hover {
+  background-color: #7cb;
+}
+*/
+

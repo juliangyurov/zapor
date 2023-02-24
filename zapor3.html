@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        <title>Калкулатор запори</title>
+        <link rel="stylesheet" href="zapor3.css">
+    </head>
+
+    <body  >
+        <div class="center vertical-center">
+          <h1>Удръжки при запори - калкулатор</h1>
+          <h2>изчислява запор върху доходи</h2>
+
+          <p class="p-hidden"></p>
+
+          <section>&nbsp;</section>
+        
+
+          <div id="zapor-form" style="display: block;">
+            <form >
+                <h2 id="headerZapor">Моля попълнете данните за изчисление:</h2>
+                <br>
+
+                <label for="zaplneto">Нетни доходи в лева за месеца:</label><br>              
+                <input type="number" id="zaplneto" name="zaplneto" size="40" min="0" step="0.01" value="1234.0"><br><br>
+                
+                <label for="mrz">МРЗ в лева:</label><br>
+                <input type="number" id="mrz" name="mrz" size="40"  min="0" step="0.01" value="780.0"><br><br>
+				
+				<input type="checkbox" id="children" name="children" value="ok">
+                <label for="children" style="font-size: small;"> Имате ли дете/деца, които издържате</label><br><br>
+                
+                <label for="udrsuma">Удръжка:</label><br>                              
+                <input type="number" id="udrsuma" name="udrsuma" size="40"><br><br>
+                
+                <label for="ostsuma">Сума за получаване:</label><br>
+                <input type="number" id="ostsuma" name="ostsuma" size="40"><br><br>
+                
+                <div>
+                    <button id="buttonComp" type="button" class="button">Изчисли</button>
+                </div>
+            </form>
+          </div>
+		  
+
+        </div>
+        <script src="zapor3.js"></script>
+    </body>
+</html>
